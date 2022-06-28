@@ -1,0 +1,107 @@
+.container{
+    margin: auto;
+    width: 90%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+}
+.card {
+    /* border: 1px solid black; */
+    width: 35rem;
+    height: 14rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.mainsection{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+.a{
+    /* border: 1px solid red; */
+    height: 11rem;
+    width: 25%;
+
+}
+.b{
+    /* border: 1px solid red; */
+    height: 11rem;
+    width: 50%;
+    text-align: top;
+    padding: 5px;
+    line-height: 8PX;
+}
+.c{
+    /* border: 1px solid red; */
+    height: 11rem;
+    width: 25%;
+
+}
+.img{
+    width: 100px;
+  height: 100px;
+    margin: 20px 2px 0 5px;
+}
+.h1{
+    color: red;
+}
+.rate{
+    border: 1px solid yellowgreen;
+ width: 40px;
+ text-align: center;
+margin-left: 60px;
+background-color: yellowgreen;
+border-radius: 5px;
+color: white;
+
+}
+.review{
+    line-height: 1px;
+    margin-left: 25px;
+    color: grey;
+}
+.text{
+    color: grey;
+}
+.order{
+
+    /* border: 1px solid red; */
+     width: 30rem;
+     height: 2.5rem;
+
+}
+.gap{
+    background-color: gray;
+    /* border: 1px solid red; */
+     width: 35rem;
+     height:0.8px;
+
+}
+.btn{
+    width: 150px;
+    height: 2.3rem;
+    margin-left: 410px;
+    font-size: 18px;
+    color: green;
+    background-color: rgb(204, 226, 204);
+    border:rgb(204, 226, 204) ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+.sortbtn{
+    width: 300px;
+    height: 30px;
+    display:flex;
+    margin: 50px auto 50px auto;
+    justify-content:space-between;
+
+}
+.pagination{
+    text-align: center;
+    margin: 50px;
+}
+.filter{
+    margin: 100px;
+}
